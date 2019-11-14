@@ -1,0 +1,292 @@
+# DATATYPE: asynFloat64 or asynInt32
+
+file db/dbMks937bAi.db
+{
+#
+#			|<----------------------- PV name -------------------------->|			asynType		asynPort	asynAddr	asynTimeout	asynParam
+#			LOCA			DEV			SUBDEV		VARIABLE		PVNAME			DATATYPE		PORT		ADDR		TIMEOUT		PARAM				SCAN		PREC	EGU
+  pattern {	LOCA,			DEV,		SUBDEV,		VARIABLE,		PVNAME,			DATATYPE,		PORT,		ADDR,		TIMEOUT,	PARAM,				SCAN,		PREC,	EGU}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		PR_Ch1_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PR_CH1,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		NOTUSED,		PR_Ch2_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PR_CH2,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		PR_Ch3_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PR_CH3,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		NOTUSED,		PR_Ch4_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PR_CH4,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		PR_Ch5_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PR_CH5,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		NOTUSED,		PR_Ch6_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PR_CH6,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		NOTUSED,		PC_Ch1_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PC_CH1,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		NOTUSED,		PC_Ch2_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PC_CH2,		"I/O Intr",	15,		""	}
+
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch1_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH1,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch2_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH2,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch3_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH3,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch4_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH4,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch5_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH5,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch6_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH6,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch7_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH7,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch8_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH8,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch9_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH9,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch10_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH10,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch11_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH11,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch12_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH12,	"I/O Intr",	15,		""	}
+
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch1_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH1,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch2_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH2,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch3_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH3,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch4_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH4,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch5_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH5,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch6_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH6,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch7_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH7,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch8_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH8,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch9_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH9,		"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch10_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH10,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch11_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH11,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch12_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH12,	"I/O Intr",	15,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		PRO_Ch1_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_PRO_CH1,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		PRO_Ch3_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_PRO_CH3,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		PRO_Ch5_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_PRO_CH5,	"I/O Intr",	15,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		CSP_Ch1_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_CSP_CH1,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		CSP_Ch3_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_CSP_CH3,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		CSP_Ch5_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_CSP_CH5,	"I/O Intr",	15,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		CHP_Ch1_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_CHP_CH1,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		CHP_Ch3_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_CHP_CH3,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		CHP_Ch5_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_CHP_CH5,	"I/O Intr",	15,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		UC_Ch1_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_UC_CH1,		"I/O Intr",	1,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		UC_Ch3_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_UC_CH3,		"I/O Intr",	1,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		UC_Ch5_Rbv,		asynFloat64,	mks1,		0,			0.2,		MKS937B_UC_CH5,		"I/O Intr",	1,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		TDC_Ch1_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_TDC_CH1,	"I/O Intr",	0,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		TDC_Ch3_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_TDC_CH3,	"I/O Intr",	0,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		TDC_Ch5_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_TDC_CH5,	"I/O Intr",	0,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		FRC_Ch1_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_FRC_CH1,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		FRC_Ch3_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_FRC_CH3,	"I/O Intr",	15,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		FRC_Ch5_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_FRC_CH5,	"I/O Intr",	15,		""	}
+
+	{		HL2,			VL204,		GLB1,		SYS,			TaskDelayDiag,	asynFloat64,	mks1,		0,			0.2,		MKS937B_COMM_DELAY_DIAG,	"1 second",	3,		""	}
+	{		HL2,			VL204,		GLB1,		SYS,			TaskDelay_Rbv,	asynFloat64,	mks1,		0,			0.2,		MKS937B_COMM_DELAY,	"I/O Intr",	3,		""	}
+
+}
+
+file db/dbMks937bAo.db
+{
+#			|<----------------------- PV name -------------------------->|			asynType		asynPort	asynAddr	asynTimeout	asynParam
+#			LOCA			DEV			SUBDEV		VARIABLE		PVNAME			DATATYPE		PORT		ADDR		TIMEOUT		PARAM				PREC	EGU
+  pattern {	LOCA,			DEV,		SUBDEV,		VARIABLE,		PVNAME,			DATATYPE,		PORT,		ADDR,		TIMEOUT,	PARAM,				PREC,	EGU	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch1,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH1,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch2,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH2,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch3,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH3,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch4,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH4,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch5,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH5,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch6,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH6,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch7,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH7,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch8,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH8,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch9,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH9,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch10,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH10,	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch11,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH11,	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SP_Ch12,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SP_CH12,	15,		""	}
+
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch1,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH1,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch2,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH2,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch3,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH3,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch4,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH4,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch5,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH5,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch6,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH6,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch7,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH7,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch8,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH8,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch9,			asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH9,		15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch10,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH10,	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch11,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH11,	15,		""	}
+	{		HL2,			VL204,		GLB1,		RELAY,			SH_Ch12,		asynFloat64,	mks1,		0,			0.2,		MKS937B_SH_CH12,	15,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		PRO_Ch1,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PRO_CH1,	15,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		PRO_Ch3,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PRO_CH3,	15,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		PRO_Ch5,		asynFloat64,	mks1,		0,			0.2,		MKS937B_PRO_CH5,	15,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		CSP_Ch1,		asynFloat64,	mks1,		0,			0.2,		MKS937B_CSP_CH1,	15,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		CSP_Ch3,		asynFloat64,	mks1,		0,			0.2,		MKS937B_CSP_CH3,	15,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		CSP_Ch5,		asynFloat64,	mks1,		0,			0.2,		MKS937B_CSP_CH5,	15,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		CHP_Ch1,		asynFloat64,	mks1,		0,			0.2,		MKS937B_CHP_CH1,	15,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		CHP_Ch3,		asynFloat64,	mks1,		0,			0.2,		MKS937B_CHP_CH3,	15,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		CHP_Ch5,		asynFloat64,	mks1,		0,			0.2,		MKS937B_CHP_CH5,	15,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		UC_Ch1,			asynFloat64,	mks1,		0,			0.2,		MKS937B_UC_CH1,		1,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		UC_Ch3,			asynFloat64,	mks1,		0,			0.2,		MKS937B_UC_CH3,		1,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		UC_Ch5,			asynFloat64,	mks1,		0,			0.2,		MKS937B_UC_CH5,		1,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		TDC_Ch1,		asynInt32,		mks1,		0,			0.2,		MKS937B_TDC_CH1,	0,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		TDC_Ch3,		asynInt32,		mks1,		0,			0.2,		MKS937B_TDC_CH3,	0,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		TDC_Ch5,		asynInt32,		mks1,		0,			0.2,		MKS937B_TDC_CH5,	0,		""	}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		FRC_Ch1,		asynFloat64,	mks1,		0,			0.2,		MKS937B_FRC_CH1,	15,		""	}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		FRC_Ch3,		asynFloat64,	mks1,		0,			0.2,		MKS937B_FRC_CH3,	15,		""	}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		FRC_Ch5,		asynFloat64,	mks1,		0,			0.2,		MKS937B_FRC_CH5,	15,		""	}
+
+	{		HL2,			VL204,		GLB1,		SYS,			TaskDelay,		asynFloat64,	mks1,		0,			0.2,		MKS937B_COMM_DELAY,	3,		""	}
+
+
+}
+
+file db/dbMks937bMbbi.db
+{
+#
+#			|<----------------------- PV name -------------------------->|			asynType		asynPort	asynAddr	asynTimeout	asynParam
+#			LOCA			DEV			SUBDEV		VARIABLE		PVNAME			DATATYPE		PORT		ADDR		TIMEOUT		PARAM				SCAN
+  pattern {	LOCA,			DEV,		SUBDEV,		VARIABLE,		PVNAME,			DATATYPE,		PORT,		ADDR,		TIMEOUT,	PARAM,				SCAN,		ZRST,	ONST,	TWST,	THST,	FRST,	FVST,	SXST	}
+
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch1_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH1,		"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch2_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH2,		"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch3_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH3,		"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch4_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH4,		"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch5_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH5,		"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch6_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH6,		"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch7_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH7,		"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch8_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH8,		"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch9_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH9,		"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch10_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH10,	"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch11_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH11,	"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch12_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH12,	"I/O Intr",	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch1_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH1,		"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch2_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH2,		"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch3_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH3,		"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch4_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH4,		"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch5_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH5,		"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch6_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH6,		"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch7_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH7,		"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch8_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH8,		"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch9_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH9,		"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch10_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH10,	"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch11_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH11,	"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch12_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH12,	"I/O Intr",	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch1_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH1,		"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch2_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH2,		"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch3_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH3,		"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch4_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH4,		"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch5_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH5,		"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch6_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH6,		"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch7_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH7,		"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch8_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH8,		"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch9_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH9,		"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch10_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH10,	"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch11_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH11,	"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch12_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH12,	"I/O Intr",	SET,	CLEAR,	"",		"",		"",		"",		""		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		XSP_Ch1_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_XSP_CH1,	"I/O Intr",	ON,		OFF,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		XSP_Ch3_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_XSP_CH3,	"I/O Intr",	ON,		OFF,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		XSP_Ch5_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_XSP_CH5,	"I/O Intr",	ON,		OFF,	"",		"",		"",		"",		""		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		CSE_Ch1_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_CSE_CH1,	"I/O Intr",	A1,		B1,		A2,		B2,		C1,		C2,		OFF		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		CSE_Ch3_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_CSE_CH3,	"I/O Intr",	A1,		B1,		A2,		B2,		C1,		C2,		OFF		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		CSE_Ch5_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_CSE_CH5,	"I/O Intr",	A1,		B1,		A2,		B2,		C1,		C2,		OFF		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		CTL_Ch1_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_CTL_CH1,	"I/O Intr",	AUTO,	SAFE,	OFF,	"",		"",		"",		""		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		CTL_Ch3_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_CTL_CH3,	"I/O Intr",	AUTO,	SAFE,	OFF,	"",		"",		"",		""		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		CTL_Ch5_Rbv,	asynInt32,		mks1,		0,			0.2,		MKS937B_CTL_CH5,	"I/O Intr",	AUTO,	SAFE,	OFF,	"",		"",		"",		""		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		CP_Ch1_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_CP_CH1,		"I/O Intr",	ON,		OFF,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		CP_Ch3_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_CP_CH3,		"I/O Intr",	ON,		OFF,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		CP_Ch5_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_CP_CH5,		"I/O Intr",	ON,		OFF,	"",		"",		"",		"",		""		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		GT_Ch1_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_GT_CH1,		"I/O Intr",	Nitrogen,	Argon,	Helium,		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		GT_Ch3_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_GT_CH3,		"I/O Intr",	Nitrogen,	Argon,	Helium,		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		GT_Ch5_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_GT_CH5,		"I/O Intr",	Nitrogen,	Argon,	Helium,		"",		"",		"",		""		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		T_Ch1_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_T_CH1,		"I/O Intr",	WAIT,	PROTECT,	OFF,	Control,	Good,	"Rear panel Ctrl off",	""		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		T_Ch3_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_T_CH3,		"I/O Intr",	WAIT,	PROTECT,	OFF,	Control,	Good,	"Rear panel Ctrl off",	""		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		T_Ch5_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_T_CH5,		"I/O Intr",	WAIT,	PROTECT,	OFF,	Control,	Good,	"Rear panel Ctrl off",	""		}
+
+	{		HL2,			VL204,		GLB1,		SYS,			UNIT_Rbv,		asynInt32,		mks1,		0,			0.2,		MKS937B_UNIT,		"I/O Intr",	Torr,	MBAR,	PASCAL,	Micron,	"",		"",		""		}
+}
+
+file db/dbMks937bMbbo.db
+{
+#
+#			|<----------------------- PV name -------------------------->|			asynType		asynPort	asynAddr	asynTimeout	asynParam
+#			LOCA			DEV			SUBDEV		VARIABLE		PVNAME			DATATYPE		PORT		ADDR		TIMEOUT		PARAM
+  pattern {	LOCA,			DEV,		SUBDEV,		VARIABLE,		PVNAME,			DATATYPE,		PORT,		ADDR,		TIMEOUT,	PARAM,				ZRST,	ONST,	TWST,	THST,	FRST,	FVST,	SXST	}
+
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch1,			asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH1,		ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch2,			asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH2,		ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch3,			asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH3,		ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch4,			asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH4,		ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch5,			asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH5,		ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch6,			asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH6,		ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch7,			asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH7,		ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch8,			asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH8,		ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch9,			asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH9,		ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch10,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH10,	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch11,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH11,	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SD_Ch12,		asynInt32,		mks1,		0,			0.2,		MKS937B_SD_CH12,	ABOVE,	BELOW,	"",		"",		"",		"",		""		}
+
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch1,			asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH1,		SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch2,			asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH2,		SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch3,			asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH3,		SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch4,			asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH4,		SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch5,			asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH5,		SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch6,			asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH6,		SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch7,			asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH7,		SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch8,			asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH8,		SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch9,			asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH9,		SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch10,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH10,	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch11,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH11,	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			EN_Ch12,		asynInt32,		mks1,		0,			0.2,		MKS937B_EN_CH12,	SET,	ENABLE,	CLEAR,	"",		"",		"",		""		}
+
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch1,			asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH1,		SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch2,			asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH2,		SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch3,			asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH3,		SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch4,			asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH4,		SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch5,			asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH5,		SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch6,			asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH6,		SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch7,			asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH7,		SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch8,			asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH8,		SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch9,			asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH9,		SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch10,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH10,	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch11,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH11,	SET,	CLEAR,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		GLB1,		RELAY,			SS_Ch12,		asynInt32,		mks1,		0,			0.2,		MKS937B_SS_CH12,	SET,	CLEAR,	"",		"",		"",		"",		""		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		XSP_Ch1,		asynInt32,		mks1,		0,			0.2,		MKS937B_XSP_CH1,	ON,		OFF,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		XSP_Ch3,		asynInt32,		mks1,		0,			0.2,		MKS937B_XSP_CH3,	ON,		OFF,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		XSP_Ch5,		asynInt32,		mks1,		0,			0.2,		MKS937B_XSP_CH5,	ON,		OFF,	"",		"",		"",		"",		""		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		CSE_Ch1,		asynInt32,		mks1,		0,			0.2,		MKS937B_CSE_CH1,	A1,		B1,		A2,		B2,		C1,		C2,		OFF		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		CSE_Ch3,		asynInt32,		mks1,		0,			0.2,		MKS937B_CSE_CH3,	A1,		B1,		A2,		B2,		C1,		C2,		OFF		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		CSE_Ch5,		asynInt32,		mks1,		0,			0.2,		MKS937B_CSE_CH5,	A1,		B1,		A2,		B2,		C1,		C2,		OFF		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		CTL_Ch1,		asynInt32,		mks1,		0,			0.2,		MKS937B_CTL_CH1,	AUTO,	SAFE,	OFF,	"",		"",		"",		""		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		CTL_Ch3,		asynInt32,		mks1,		0,			0.2,		MKS937B_CTL_CH3,	AUTO,	SAFE,	OFF,	"",		"",		"",		""		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		CTL_Ch5,		asynInt32,		mks1,		0,			0.2,		MKS937B_CTL_CH5,	AUTO,	SAFE,	OFF,	"",		"",		"",		""		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		CP_Ch1,			asynInt32,		mks1,		0,			0.2,		MKS937B_CP_CH1,		ON,		OFF,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		CP_Ch3,			asynInt32,		mks1,		0,			0.2,		MKS937B_CP_CH3,		ON,		OFF,	"",		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		CP_Ch5,			asynInt32,		mks1,		0,			0.2,		MKS937B_CP_CH5,		ON,		OFF,	"",		"",		"",		"",		""		}
+
+	{		HL2,			VL204,		CG01,		L204_Acc01,		GT_Ch1,			asynInt32,		mks1,		0,			0.2,		MKS937B_GT_CH1,		Nitrogen,	Argon,	Helium,		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG02,		L204_Acc02,		GT_Ch3,			asynInt32,		mks1,		0,			0.2,		MKS937B_GT_CH3,		Nitrogen,	Argon,	Helium,		"",		"",		"",		""		}
+	{		HL2,			VL204,		CG03,		L204_Kly01,		GT_Ch5,			asynInt32,		mks1,		0,			0.2,		MKS937B_GT_CH5,		Nitrogen,	Argon,	Helium,		"",		"",		"",		""		}
+
+	{		HL2,			VL204,		GLB1,		SYS,			UNIT,			asynInt32,		mks1,		0,			0.2,		MKS937B_UNIT,		Torr,	MBAR,	PASCAL,	Micron,	"",		"",		""		}
+}
+
+file db/dbMks937bBi.db
+{
+#			|<----------------------- PV name -------------------------->|				asynType		asynPort	asynAddr	asynTimeout	asynParam
+#			LOCA			DEV			SUBDEV		VARIABLE		PVNAME				DATATYPE		PORT		ADDR		TIMEOUT		PARAM
+  pattern {	LOCA,			DEV,		SUBDEV,		VARIABLE,		PVNAME,				DATATYPE,		PORT,		ADDR,		TIMEOUT,	PARAM,				SCAN,		ZNAM,	ONAM		}
+	{		HL2,			VL204,		GLB1,		SYS,			IsAlive,			asynInt32,		mks1,		0,			0.2,		MKS937B_ISALIVE		"I/O Intr",	FAULT,	NORMAL		}
+
+}
+
+file db/dbMks937bBo.db
+{
+#			|<----------------------- PV name -------------------------->|				asynType		asynPort	asynAddr	asynTimeout	asynParam
+#			LOCA			DEV			SUBDEV		VARIABLE		PVNAME				DATATYPE		PORT		ADDR		TIMEOUT		PARAM
+  pattern {	LOCA,			DEV,		SUBDEV,		VARIABLE,		PVNAME,				DATATYPE,		PORT,		ADDR,		TIMEOUT,	PARAM,				ZNAM,	ONAM		}
+	{		HL2,			VL204,		GLB1,		SYS,			FeaturesRequest,	asynInt32,		mks1,		0,			0.2,		MKS937B_FEATURE_REQ	ON,		ON			}
+
+}

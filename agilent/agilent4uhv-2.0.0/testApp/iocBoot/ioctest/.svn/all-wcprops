@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/iocBoot/ioctest
+END
+st.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/iocBoot/ioctest/st.cmd
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/iocBoot/ioctest/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/iocBoot/ioctest/README
+END

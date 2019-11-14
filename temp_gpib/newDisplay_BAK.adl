@@ -1,0 +1,678 @@
+
+file {
+	name="newDisplay.adl"
+	version=030102
+}
+display {
+	object {
+		x=156
+		y=445
+		width=740
+		height=481
+	}
+	clr=14
+	bclr=4
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+"text update" {
+	object {
+		x=19
+		y=24
+		width=113
+		height=20
+	}
+	monitor {
+		chan="HFXAFS:TEMP1:SENsts"
+		clr=14
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=19
+		y=49
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP1:ALARMsts"
+		clr=14
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=19
+		y=73
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP1:REMOTEsts"
+		clr=14
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=190
+		y=20
+		width=113
+		height=20
+	}
+	monitor {
+		chan="HFXAFS:TEMP2:SENsts"
+		clr=14
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=190
+		y=45
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP2:ALARMsts"
+		clr=14
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=190
+		y=69
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP2:REMOTEsts"
+		clr=14
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=19
+		y=97
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP1:TEMP"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=190
+		y=93
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP2:TEMP"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=20
+		y=211
+		width=113
+		height=20
+	}
+	monitor {
+		chan="HFXAFS:TEMP3:SENsts"
+		clr=14
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=20
+		y=236
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP3:ALARMsts"
+		clr=14
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=20
+		y=260
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP3:REMOTEsts"
+		clr=14
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=20
+		y=284
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP3:TEMP"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=19
+		y=121
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP1:READ_SETPOINT"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=190
+		y=117
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP2:READ_SETPOINT"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=20
+		y=308
+		width=116
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP3:READ_SETPOINT"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=542
+		y=250
+		width=40
+		height=18
+	}
+	control {
+		chan="HFXAFS:TEMP1:WRITE_SETPOINT"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=185
+		y=139
+		width=60
+		height=22
+	}
+	control {
+		chan="HFXAFS:TEMP2:WRITE_SETPOINT"
+		clr=14
+		bclr=50
+	}
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=20
+		y=330
+		width=60
+		height=22
+	}
+	control {
+		chan="HFXAFS:TEMP3:WRITE_SETPOINT"
+		clr=14
+		bclr=50
+	}
+	limits {
+	}
+}
+"choice button" {
+	object {
+		x=458
+		y=270
+		width=125
+		height=20
+	}
+	control {
+		chan="HFXAFS:TEMP1:RemLocSet"
+		clr=14
+		bclr=51
+	}
+	stacking="column"
+}
+"choice button" {
+	object {
+		x=185
+		y=163
+		width=60
+		height=40
+	}
+	control {
+		chan="HFXAFS:TEMP2:RemLocSet"
+		clr=14
+		bclr=50
+	}
+}
+"choice button" {
+	object {
+		x=20
+		y=353
+		width=60
+		height=40
+	}
+	control {
+		chan="HFXAFS:TEMP3:RemLocSet"
+		clr=14
+		bclr=50
+	}
+}
+oval {
+	object {
+		x=561
+		y=181
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="HFXAFS:TEMP1:SENsts"
+	}
+}
+oval {
+	object {
+		x=561
+		y=181
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="HFXAFS:TEMP1:SENsts"
+	}
+}
+oval {
+	object {
+		x=561
+		y=199
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="HFXAFS:TEMP1:ALARMsts"
+	}
+}
+oval {
+	object {
+		x=561
+		y=199
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="HFXAFS:TEMP1:ALARMsts"
+	}
+}
+text {
+	object {
+		x=458
+		y=183
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="SENSOR STATUS:"
+}
+text {
+	object {
+		x=458
+		y=200
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="ALARM STATUS :"
+}
+oval {
+	object {
+		x=561
+		y=216
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="HFXAFS:TEMP1:REMOTEsts"
+	}
+}
+oval {
+	object {
+		x=561
+		y=216
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=31
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="HFXAFS:TEMP1:REMOTEsts"
+	}
+}
+text {
+	object {
+		x=457
+		y=216
+		width=90
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="REMOTE/LOCAL :"
+}
+"text update" {
+	object {
+		x=190
+		y=340
+		width=60
+		height=19
+	}
+	monitor {
+		chan="HFXAFS:TEMP1:READ_SETPOINT"
+		clr=30
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=266
+		y=216
+		width=40
+		height=12
+	}
+	monitor {
+		chan="HFXAFS:TEMP1:TEMP"
+		clr=53
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=180
+		y=217
+		width=80
+		height=12
+	}
+	monitor {
+		chan="HFXAFS:TEMP1:TEMP.DESC"
+		clr=14
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=455
+		y=253
+		width=40
+		height=12
+	}
+	monitor {
+		chan="HFXAFS:TEMP1:TEMP"
+		clr=53
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=500
+		y=253
+		width=40
+		height=12
+	}
+	monitor {
+		chan="HFXAFS:TEMP1:READ_SETPOINT"
+		clr=30
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=450
+		y=243
+		width=140
+		height=54
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=450
+		y=171
+		width=140
+		height=66
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+"text entry" {
+	object {
+		x=449
+		y=132
+		width=92
+		height=25
+	}
+	control {
+		chan="HFXAFS:TEMP1:TEMP.DESC"
+		clr=0
+		bclr=54
+	}
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=420
+		y=127
+		width=178
+		height=36
+	}
+	"basic attribute" {
+		clr=54
+	}
+	"dynamic attribute" {
+		chan="HFXAFS:TEMP1:READ_SETPOINT"
+	}
+}
+"related display" {
+	object {
+		x=546
+		y=133
+		width=46
+		height=27
+	}
+	clr=0
+	bclr=17
+	label="more"
+}

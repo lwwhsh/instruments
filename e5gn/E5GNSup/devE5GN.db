@@ -1,0 +1,38 @@
+#
+# OMRON E5GN temperature reading with identification string
+#
+
+record(ai, "$(P)$(R)TEMP1")
+{
+   field(DTYP,"stream")
+   field(EGU,"degree C")
+   field(INP, "@devE5GN.proto readTemp1 $(PORT)")
+   field(SCAN,"2 second")
+   field(ESLO,"0.1")
+   field(LINR,"LINEAR")
+}
+
+record(ai, "$(P)$(R)TEMP2")
+{
+   field(DTYP,"stream")
+   field(EGU,"degree C")
+   field(INP, "@devE5GN.proto readTemp2 $(PORT)")
+   field(SCAN,"2 second")
+}
+
+record(ai, "$(P)$(R)TEMP3")
+{
+   field(DTYP,"stream")
+   field(EGU,"degree C")
+   field(INP, "@devE5GN.proto readTemp3 $(PORT)")
+   field(SCAN,"2 second")
+}
+
+record(ai, "$(P)$(R)TEMP4")
+{
+   field(DTYP,"stream")
+   field(EGU,"degree C")
+   field(INP, "@devE5GN.proto readTemp4 $(PORT)")
+   field(SCAN,"2 second")
+}
+

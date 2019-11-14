@@ -1,0 +1,10 @@
+record(ai, "$(LOCA):$(DEV):$(SUBDEV):$(PVNAME)")
+{
+	field(DTYP, "$(DATATYPE)")
+	field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))$(PARAM)")
+	field(SCAN, "$(SCAN)")
+	field(PREC, "$(PREC)")
+	field(EGU, "$(EGU)")
+
+	info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}

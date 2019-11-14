@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure
+END
+IocStCmd.pl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/IocStCmd.pl
+END
+RELEASE
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/RELEASE
+END
+RULES.ioc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/RULES.ioc
+END
+CONFIG
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/CONFIG
+END
+IocName.pl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/IocName.pl
+END
+CONFIG_SITE
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/CONFIG_SITE
+END
+RULES
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/RULES
+END
+RULES_DIRS
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/RULES_DIRS
+END
+RULES.Restore
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/RULES.Restore
+END
+RULES_TOP
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/RULES_TOP
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/configure/Makefile
+END

@@ -1,0 +1,22 @@
+record(ai,"$(P)$(R)") {
+#    field(DESC, "$(P)$(R):Temp.")
+    field(SCAN, "5 second")
+    field(DTYP, "temp_gpib")
+    field(PREC, "1")
+    field(INP,  "#L$(L) A$(A) @0")
+    field(LINR, "NO CONVERSION")
+    field(EGU,  "C")
+    field(HIHI, "50.0")
+    field(HIGH, "49.0")
+    field(LOLO, "-199.9")
+    field(LOW, "-199.0")
+    field(HHSV, "MAJOR")
+    field(LLSV, "MAJOR")
+    field(HSV, "MINOR")
+    field(LSV, "MINOR")    
+    field(AOFF, "0")
+    field(ASLO, "1")
+    field(SIMS, "NO_ALARM")
+    # field(FLNK, "$(P)$(R):sub.PROC NPP MS")
+}
+

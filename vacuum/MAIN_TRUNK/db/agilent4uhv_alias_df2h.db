@@ -1,0 +1,29 @@
+# User command to turn on IP
+alias("$(LOCA):$(DEV):HvCh1","$(LOCA):$(SUB1):Hv")
+alias("$(LOCA):$(DEV):HvCh2","$(LOCA):$(SUB2):Hv")
+alias("$(LOCA):$(DEV):HvCh3","$(LOCA):$(SUB3):Hv")
+alias("$(LOCA):$(DEV):HvCh4","$(LOCA):$(SUB4):Hv")
+
+# Status of HV
+alias("$(LOCA):$(DEV):HvCh1Rbv","$(LOCA):$(SUB1):HvRbv")
+alias("$(LOCA):$(DEV):HvCh2Rbv","$(LOCA):$(SUB2):HvRbv")
+alias("$(LOCA):$(DEV):HvCh3Rbv","$(LOCA):$(SUB3):HvRbv")
+alias("$(LOCA):$(DEV):HvCh4Rbv","$(LOCA):$(SUB4):HvRbv")
+
+# Voltage
+alias("$(LOCA):$(DEV):VoltageCh1","$(LOCA):$(SUB1):Voltage")
+alias("$(LOCA):$(DEV):VoltageCh2","$(LOCA):$(SUB2):Voltage")
+alias("$(LOCA):$(DEV):VoltageCh3","$(LOCA):$(SUB3):Voltage")
+alias("$(LOCA):$(DEV):VoltageCh4","$(LOCA):$(SUB4):Voltage")
+
+# Current
+alias("$(LOCA):$(DEV):CurrentCh1","$(LOCA):$(SUB1):Current")
+alias("$(LOCA):$(DEV):CurrentCh2","$(LOCA):$(SUB2):Current")
+alias("$(LOCA):$(DEV):CurrentCh3","$(LOCA):$(SUB3):Current")
+alias("$(LOCA):$(DEV):CurrentCh4","$(LOCA):$(SUB4):Current")
+
+# Pressure
+alias("$(LOCA):$(DEV):PressureCh1","$(LOCA):$(SUB1):Pressure")
+alias("$(LOCA):$(DEV):PressureCh2","$(LOCA):$(SUB2):Pressure")
+alias("$(LOCA):$(DEV):PressureCh3","$(LOCA):$(SUB3):Pressure")
+alias("$(LOCA):$(DEV):PressureCh4","$(LOCA):$(SUB4):Pressure")

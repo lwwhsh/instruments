@@ -1,0 +1,10 @@
+record(bi, "$(LOCA):$(DEV):$(SUBDEV):$(PVNAME)")
+{
+	field(DTYP, "$(DATATYPE)")
+	field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))$(PARAM)")
+	field(ONAM, "$(ONAM)")
+	field(ZNAM, "$(ZNAM)")
+	field(SCAN, "$(SCAN)")
+
+	info(autosaveFields, "ZSV OSV ZNAM ONAM")
+}

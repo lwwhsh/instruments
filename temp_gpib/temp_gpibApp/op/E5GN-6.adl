@@ -1,0 +1,1634 @@
+
+file {
+	name="/usr/local/EPICS/modules/synApps_5_4_1/support/instrument/temp_gpib/temp_gpibApp/op/./E5GN-6.adl"
+	version=030104
+}
+display {
+	object {
+		x=322
+		y=329
+		width=872
+		height=195
+	}
+	clr=14
+	bclr=4
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+"text entry" {
+	object {
+		x=96
+		y=136
+		width=40
+		height=19
+	}
+	control {
+		chan="$(P):$(R1):WRITE_SETPOINT"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"choice button" {
+	object {
+		x=12
+		y=162
+		width=125
+		height=21
+	}
+	control {
+		chan="$(P):$(R1):RemLocSet"
+		clr=14
+		bclr=51
+	}
+	stacking="column"
+}
+oval {
+	object {
+		x=115
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R1):SENsts"
+	}
+}
+oval {
+	object {
+		x=115
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R1):SENsts"
+	}
+}
+oval {
+	object {
+		x=115
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R1):ALARMsts"
+	}
+}
+oval {
+	object {
+		x=115
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R1):ALARMsts"
+	}
+}
+text {
+	object {
+		x=12
+		y=54
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="SENSOR STATUS:"
+}
+text {
+	object {
+		x=12
+		y=71
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="ALARM STATUS :"
+}
+oval {
+	object {
+		x=115
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R1):REMOTEsts"
+	}
+}
+oval {
+	object {
+		x=115
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=31
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R1):REMOTEsts"
+	}
+}
+text {
+	object {
+		x=11
+		y=87
+		width=90
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="REMOTE/LOCAL :"
+}
+"text update" {
+	object {
+		x=9
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R1):TEMP"
+		clr=54
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=54
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R1):READ_SETPOINT"
+		clr=64
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=4
+		y=114
+		width=140
+		height=74
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=4
+		y=42
+		width=140
+		height=66
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+"text entry" {
+	object {
+		x=3
+		y=7
+		width=140
+		height=25
+	}
+	control {
+		chan="$(P):$(R1):TEMP.DESC"
+		clr=0
+		bclr=54
+	}
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=0
+		y=0
+		width=1400
+		height=38
+	}
+	"basic attribute" {
+		clr=54
+	}
+	"dynamic attribute" {
+		chan="$(P):$(R2):READ_SETPOINT"
+	}
+}
+"related display" {
+	object {
+		x=821
+		y=5
+		width=46
+		height=27
+	}
+	display[0] {
+		label="Temp1. Single"
+		name="E5GN.adl"
+		args="P=HFXAFS, R=TEMP1"
+	}
+	display[1] {
+		label="Temp.1-6"
+		name="E5GN-6.adl"
+		args="P=HFXAFS, R1=FixedMask1,R2=FixedMask2UP,R3=FixedMask2DN,R4=FixedMask3UP,R5=FixedMask3DN,R6=Graphite1"
+	}
+	display[2] {
+		label="Temp.7-12"
+		name="E5GN-6.adl"
+		args="P=HFXAFS, R1=Graphite2,R2=Graphite3,R3=VslitUP,R4=VslitDN,R5=HslitRING,R6=HslitHALL"
+	}
+	display[3] {
+		label="Temp.13-18"
+		name="E5GN-6.adl"
+		args="P=HFXAFS, R1=PhotonShutter,R2=Screnn1,R3=FixedMask4UP,R4=FixedMask4DN,R5=TEMP17,R6=TEMP18"
+	}
+	clr=0
+	bclr=17
+	label="more"
+}
+text {
+	object {
+		x=10
+		y=121
+		width=26
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Temp."
+}
+text {
+	object {
+		x=54
+		y=121
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=64
+	}
+	textix="Trip Set Point"
+}
+"text entry" {
+	object {
+		x=241
+		y=136
+		width=40
+		height=19
+	}
+	control {
+		chan="$(P):$(R2):WRITE_SETPOINT"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"choice button" {
+	object {
+		x=157
+		y=162
+		width=125
+		height=21
+	}
+	control {
+		chan="$(P):$(R2):RemLocSet"
+		clr=14
+		bclr=51
+	}
+	stacking="column"
+}
+oval {
+	object {
+		x=260
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R2):SENsts"
+	}
+}
+oval {
+	object {
+		x=260
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R2):SENsts"
+	}
+}
+oval {
+	object {
+		x=260
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R2):ALARMsts"
+	}
+}
+oval {
+	object {
+		x=260
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R2):ALARMsts"
+	}
+}
+text {
+	object {
+		x=157
+		y=54
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="SENSOR STATUS:"
+}
+text {
+	object {
+		x=157
+		y=71
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="ALARM STATUS :"
+}
+oval {
+	object {
+		x=260
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R2):REMOTEsts"
+	}
+}
+oval {
+	object {
+		x=260
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=31
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R2):REMOTEsts"
+	}
+}
+text {
+	object {
+		x=156
+		y=87
+		width=90
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="REMOTE/LOCAL :"
+}
+"text update" {
+	object {
+		x=154
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R2):TEMP"
+		clr=54
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=199
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R2):READ_SETPOINT"
+		clr=64
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=149
+		y=114
+		width=140
+		height=74
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=149
+		y=42
+		width=140
+		height=66
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+"text entry" {
+	object {
+		x=148
+		y=7
+		width=140
+		height=25
+	}
+	control {
+		chan="$(P):$(R2):TEMP.DESC"
+		clr=0
+		bclr=54
+	}
+	limits {
+	}
+}
+text {
+	object {
+		x=155
+		y=121
+		width=26
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Temp."
+}
+text {
+	object {
+		x=199
+		y=121
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=64
+	}
+	textix="Trip Set Point"
+}
+"text entry" {
+	object {
+		x=385
+		y=136
+		width=40
+		height=19
+	}
+	control {
+		chan="$(P):$(R3):WRITE_SETPOINT"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"choice button" {
+	object {
+		x=301
+		y=162
+		width=125
+		height=21
+	}
+	control {
+		chan="$(P):$(R3):RemLocSet"
+		clr=14
+		bclr=51
+	}
+	stacking="column"
+}
+oval {
+	object {
+		x=404
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R3):SENsts"
+	}
+}
+oval {
+	object {
+		x=404
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R3):SENsts"
+	}
+}
+oval {
+	object {
+		x=404
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R3):ALARMsts"
+	}
+}
+oval {
+	object {
+		x=404
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R3):ALARMsts"
+	}
+}
+text {
+	object {
+		x=301
+		y=54
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="SENSOR STATUS:"
+}
+text {
+	object {
+		x=301
+		y=71
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="ALARM STATUS :"
+}
+oval {
+	object {
+		x=404
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R3):REMOTEsts"
+	}
+}
+oval {
+	object {
+		x=404
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=31
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R3):REMOTEsts"
+	}
+}
+text {
+	object {
+		x=300
+		y=87
+		width=90
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="REMOTE/LOCAL :"
+}
+"text update" {
+	object {
+		x=298
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R3):TEMP"
+		clr=54
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=343
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R3):READ_SETPOINT"
+		clr=64
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=293
+		y=114
+		width=140
+		height=74
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=293
+		y=42
+		width=140
+		height=66
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+"text entry" {
+	object {
+		x=292
+		y=7
+		width=140
+		height=25
+	}
+	control {
+		chan="$(P):$(R3):TEMP.DESC"
+		clr=0
+		bclr=54
+	}
+	limits {
+	}
+}
+text {
+	object {
+		x=299
+		y=121
+		width=26
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Temp."
+}
+text {
+	object {
+		x=343
+		y=121
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=64
+	}
+	textix="Trip Set Point"
+}
+"text entry" {
+	object {
+		x=530
+		y=136
+		width=40
+		height=19
+	}
+	control {
+		chan="$(P):$(R4):WRITE_SETPOINT"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"choice button" {
+	object {
+		x=446
+		y=162
+		width=125
+		height=21
+	}
+	control {
+		chan="$(P):$(R4):RemLocSet"
+		clr=14
+		bclr=51
+	}
+	stacking="column"
+}
+oval {
+	object {
+		x=549
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R4):SENsts"
+	}
+}
+oval {
+	object {
+		x=549
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R4):SENsts"
+	}
+}
+oval {
+	object {
+		x=549
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R4):ALARMsts"
+	}
+}
+oval {
+	object {
+		x=549
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R4):ALARMsts"
+	}
+}
+text {
+	object {
+		x=446
+		y=54
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="SENSOR STATUS:"
+}
+text {
+	object {
+		x=446
+		y=71
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="ALARM STATUS :"
+}
+oval {
+	object {
+		x=549
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R4):REMOTEsts"
+	}
+}
+oval {
+	object {
+		x=549
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=31
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R4):REMOTEsts"
+	}
+}
+text {
+	object {
+		x=445
+		y=87
+		width=90
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="REMOTE/LOCAL :"
+}
+"text update" {
+	object {
+		x=443
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R4):TEMP"
+		clr=54
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=488
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R4):READ_SETPOINT"
+		clr=64
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=438
+		y=114
+		width=140
+		height=74
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=438
+		y=42
+		width=140
+		height=66
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+"text entry" {
+	object {
+		x=437
+		y=7
+		width=140
+		height=25
+	}
+	control {
+		chan="$(P):$(R4):TEMP.DESC"
+		clr=0
+		bclr=54
+	}
+	limits {
+	}
+}
+text {
+	object {
+		x=444
+		y=121
+		width=26
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Temp."
+}
+text {
+	object {
+		x=488
+		y=121
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=64
+	}
+	textix="Trip Set Point"
+}
+"text entry" {
+	object {
+		x=674
+		y=136
+		width=40
+		height=19
+	}
+	control {
+		chan="$(P):$(R5):WRITE_SETPOINT"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"choice button" {
+	object {
+		x=590
+		y=162
+		width=125
+		height=21
+	}
+	control {
+		chan="$(P):$(R5):RemLocSet"
+		clr=14
+		bclr=51
+	}
+	stacking="column"
+}
+oval {
+	object {
+		x=693
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R5):SENsts"
+	}
+}
+oval {
+	object {
+		x=693
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R5):SENsts"
+	}
+}
+oval {
+	object {
+		x=693
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R5):ALARMsts"
+	}
+}
+oval {
+	object {
+		x=693
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R5):ALARMsts"
+	}
+}
+text {
+	object {
+		x=590
+		y=54
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="SENSOR STATUS:"
+}
+text {
+	object {
+		x=590
+		y=71
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="ALARM STATUS :"
+}
+oval {
+	object {
+		x=693
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R5):REMOTEsts"
+	}
+}
+oval {
+	object {
+		x=693
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=31
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R5):REMOTEsts"
+	}
+}
+text {
+	object {
+		x=589
+		y=87
+		width=90
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="REMOTE/LOCAL :"
+}
+"text update" {
+	object {
+		x=587
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R5):TEMP"
+		clr=54
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=632
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R5):READ_SETPOINT"
+		clr=64
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=582
+		y=114
+		width=140
+		height=74
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=582
+		y=42
+		width=140
+		height=66
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+"text entry" {
+	object {
+		x=581
+		y=7
+		width=140
+		height=25
+	}
+	control {
+		chan="$(P):$(R5):TEMP.DESC"
+		clr=0
+		bclr=54
+	}
+	limits {
+	}
+}
+text {
+	object {
+		x=588
+		y=121
+		width=26
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Temp."
+}
+text {
+	object {
+		x=632
+		y=121
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=64
+	}
+	textix="Trip Set Point"
+}
+"text entry" {
+	object {
+		x=819
+		y=136
+		width=40
+		height=19
+	}
+	control {
+		chan="$(P):$(R6):WRITE_SETPOINT"
+		clr=14
+		bclr=4
+	}
+	limits {
+	}
+}
+"choice button" {
+	object {
+		x=735
+		y=162
+		width=125
+		height=21
+	}
+	control {
+		chan="$(P):$(R6):RemLocSet"
+		clr=14
+		bclr=51
+	}
+	stacking="column"
+}
+oval {
+	object {
+		x=838
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R6):SENsts"
+	}
+}
+oval {
+	object {
+		x=838
+		y=52
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R6):SENsts"
+	}
+}
+oval {
+	object {
+		x=838
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R6):ALARMsts"
+	}
+}
+oval {
+	object {
+		x=838
+		y=70
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R6):ALARMsts"
+	}
+}
+text {
+	object {
+		x=735
+		y=54
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="SENSOR STATUS:"
+}
+text {
+	object {
+		x=735
+		y=71
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="ALARM STATUS :"
+}
+oval {
+	object {
+		x=838
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="$(P):$(R6):REMOTEsts"
+	}
+}
+oval {
+	object {
+		x=838
+		y=87
+		width=12
+		height=10
+	}
+	"basic attribute" {
+		clr=31
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="$(P):$(R6):REMOTEsts"
+	}
+}
+text {
+	object {
+		x=734
+		y=87
+		width=90
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="REMOTE/LOCAL :"
+}
+"text update" {
+	object {
+		x=732
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R6):TEMP"
+		clr=54
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=777
+		y=139
+		width=40
+		height=13
+	}
+	monitor {
+		chan="$(P):$(R6):READ_SETPOINT"
+		clr=64
+		bclr=4
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=727
+		y=114
+		width=140
+		height=74
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+rectangle {
+	object {
+		x=727
+		y=42
+		width=140
+		height=66
+	}
+	"basic attribute" {
+		clr=0
+		fill="outline"
+	}
+}
+"text entry" {
+	object {
+		x=726
+		y=7
+		width=95
+		height=25
+	}
+	control {
+		chan="$(P):$(R6):TEMP.DESC"
+		clr=0
+		bclr=54
+	}
+	limits {
+	}
+}
+text {
+	object {
+		x=733
+		y=121
+		width=26
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Temp."
+}
+text {
+	object {
+		x=777
+		y=121
+		width=82
+		height=12
+	}
+	"basic attribute" {
+		clr=64
+	}
+	textix="Trip Set Point"
+}

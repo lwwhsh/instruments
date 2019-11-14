@@ -1,0 +1,40 @@
+#
+# 2016.01.04 Geonyeong Mun
+
+record(ai, "$(LOCA):$(DEV):$(SUBDEV)_Pressure")
+{
+#	field(PINI, "YES")
+	field(DTYP, "stream")
+	field(INP, "@combivacCM52.proto getPressureCh3($(LOCA),$(DEV),$(SUBDEV)) $(PORT) $(ADDR)")
+	field(EGU, "mbar")
+	field(PREC, "15")
+#	field(FLNK, "$(LOCA):$(DEV):Setpoint1Status")
+	field(SCAN, "1 second")
+	info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(mbbi, "$(LOCA):$(DEV):$(SUBDEV)_PressureStatus")
+{
+	field(ZRVL, "0")
+	field(ZRST, "ok")
+	field(ONVL, "1")
+	field(ONST, "under range")
+	field(TWVL, "2")
+	field(TWST, "over range")
+	field(THVL, "3")
+	field(THST, "error Low")
+	field(FRVL, "4")
+	field(FRST, "error High")
+	field(FVVL, "5")
+	field(FVST, "sensor off")
+	field(SXVL, "6")
+	field(SXST, "HV on")
+	field(SVVL, "7")
+	field(SVST, "sensor error")
+	field(EIVL, "9")
+	field(EIST, "no sensor")
+	field(NIVL, "10")
+	field(NIST, "no switch or switch off")
+	field(TEVL, "12")
+	field(TEST, "pirani error")
+}

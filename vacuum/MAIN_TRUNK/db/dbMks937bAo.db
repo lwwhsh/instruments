@@ -1,0 +1,9 @@
+record(ao, "$(LOCA):$(DEV):$(SUBDEV):$(VARIABLE)_$(PVNAME)")
+{
+	field(DTYP, "$(DATATYPE)")
+	field(OUT, "@asyn($(PORT),$(ADDR),$(TIMEOUT))$(PARAM)")
+	field(PREC, "$(PREC)")
+	field(EGU, "$(EGU)")
+
+	info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV HOPR LOPR DRVH DRVL")
+}

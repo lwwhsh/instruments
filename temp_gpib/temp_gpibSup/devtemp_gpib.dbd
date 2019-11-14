@@ -1,0 +1,20 @@
+device(ai,        GPIB_IO, devAitemp_gpib,    "temp_gpib")
+device(ao,        GPIB_IO, devAotemp_gpib,    "temp_gpib")
+device(bi,        GPIB_IO, devBitemp_gpib,    "temp_gpib")
+device(bo,        GPIB_IO, devBotemp_gpib,    "temp_gpib")
+device(event,     GPIB_IO, devEvtemp_gpib,    "temp_gpib")
+device(longin,    GPIB_IO, devLitemp_gpib,    "temp_gpib")
+device(longout,   GPIB_IO, devLotemp_gpib,    "temp_gpib")
+device(mbbi,      GPIB_IO, devMbbitemp_gpib , "temp_gpib")
+device(mbbiDirect,GPIB_IO, devMbbidtemp_gpib, "temp_gpib")
+device(mbbo,      GPIB_IO, devMbbotemp_gpib,  "temp_gpib")
+device(mbboDirect,GPIB_IO, devMbbodtemp_gpib, "temp_gpib")
+device(stringin,  GPIB_IO, devSitemp_gpib,    "temp_gpib")
+device(stringout, GPIB_IO, devSotemp_gpib,    "temp_gpib")
+device(waveform,  GPIB_IO, devWftemp_gpib,    "temp_gpib")
+
+include "asyn.dbd"
+
+variable(temp_gpibSubDebug)
+function(temp_gpibSubInit)
+function(temp_gpibSubProcess)

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK
+END
+info_settings.req
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/xfel/!svn/ver/1877/epics/iocTop/vacuum/MAIN_TRUNK/info_settings.req
+END
+RELEASE_SITE
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/RELEASE_SITE
+END
+RELEASE_NOTES
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/RELEASE_NOTES
+END
+info_positions.req
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/xfel/!svn/ver/1877/epics/iocTop/vacuum/MAIN_TRUNK/info_positions.req
+END
+svn-commit.tmp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/svn-commit.tmp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/README
+END

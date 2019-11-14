@@ -1,0 +1,15 @@
+# Agilent4UHV substitutions file
+
+file db/agilent4uhv.db
+{
+     pattern {LOCA,			DEV,			PORT,		ADDR,	TIMEOUT}
+     		{HL4,			VL403_1,		4uhv_1,		0,		0.2}
+     		{HL4,			VL403_2,		4uhv_2,		0,		0.2}
+}
+
+file db/agilent4uhv_alias.db
+{
+     pattern {LOCA,			DEV,			SUB1,				SUB2,				SUB3,					SUB4,				PORT,		ADDR,	TIMEOUT}
+     	 {HL4,			VL403_1,		IP01:L403_Acc601,		IP02:L403_Acc602,		IP03:L403_Acc603,			IP04:L403_Acc604,		4uhv_1,		0,		0.2}
+		 {HL4,			VL403_2,		IP05:L403_Acc605,		IP06:L403_Wave601,		IP07:L403_Kly601,			IP08:Empty,			4uhv_2,		0,		0.2}
+}

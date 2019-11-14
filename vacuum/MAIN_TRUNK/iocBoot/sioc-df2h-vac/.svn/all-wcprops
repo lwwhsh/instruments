@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/iocBoot/sioc-df2h-vac
+END
+st.cmd.bak
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/iocBoot/sioc-df2h-vac/st.cmd.bak
+END
+st.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/iocBoot/sioc-df2h-vac/st.cmd
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/iocBoot/sioc-df2h-vac/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/iocBoot/sioc-df2h-vac/README
+END

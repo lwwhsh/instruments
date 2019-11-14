@@ -1,0 +1,5 @@
+epicsEnvSet("ARCH","linux-x86_64")
+epicsEnvSet("IOC","ioctemp_gpib")
+epicsEnvSet("TOP","/usr/local/epics/synApps_5_8/support/instruments/temp_gpib")
+epicsEnvSet("ASYN","/usr/local/epics/synApps_5_8/support/asyn-4-26")
+epicsEnvSet("EPICS_BASE","/usr/local/epics/base-3.14.12.5")

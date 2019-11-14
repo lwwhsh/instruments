@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/src
+END
+agilent4uhvMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/src/agilent4uhvMain.cpp
+END
+sncProgram.st
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/src/sncProgram.st
+END
+agilent4uhv.dbd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/src/agilent4uhv.dbd
+END
+drvAgilent4uhv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/src/drvAgilent4uhv.cpp
+END
+sncExample.dbd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/src/sncExample.dbd
+END
+sncExample.stt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/src/sncExample.stt
+END
+drvAgilent4uhv.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/src/drvAgilent4uhv.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/src/Makefile
+END

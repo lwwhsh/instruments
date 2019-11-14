@@ -1,0 +1,16 @@
+# Agilent4UHV substitutions file
+
+file db/agilent4uhv.db
+{
+     pattern {LOCA,			DEV,		PORT,		ADDR,	TIMEOUT}
+     		 {INJ,			VGN,		4uhv_1,		0,		0.2}
+     		 {INJ,			VG2L,		4uhv_2,		0,		0.2}
+     		 {INJ,			VL001,		4uhv_3,		0,		0.2}
+}
+file db/agilent4uhv_alias.db
+{
+     pattern {LOCA,			DEV,	SUB1,					SUB2,					SUB3,						SUB4					PORT,				ADDR,			TIMEOUT	}
+     		 {INJ,			VGN,	IP01:GUN_Pumping601,	IP02:GUN_Pumping201,	IP03:GUN_Wave601,			IP04:GUN_Wave201,		4uhv_1,				0,				0.2		}
+     		 {INJ,			VG2L,	IP05:GUN_Wave202,		IP06:GUN_Kly601,		IP01:G2L_Screen01,			IP02:G2L_Screen02		4uhv_2,				0,				0.2		}
+     		 {INJ,			VL001,	IP01:L001_Acc201,		IP02:L001_Acc601,		IP03:L001_Wave602,			IP04:L001_Kly603			4uhv_3,				0,				0.2		}
+}

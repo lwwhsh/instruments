@@ -1,0 +1,59 @@
+#!../../bin/linux-x86/temp_gpib
+#
+< envPaths
+#
+cd ${TOP}
+#
+## Register all support components
+dbLoadDatabase("dbd/temp_gpib.dbd",0,0)
+temp_gpib_registerRecordDeviceDriver(pdbbase)
+#
+## Load record instances
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP1:, L=10,A=1")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP2:, L=10,A=2")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP3:, L=10,A=3")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP4:, L=10,A=4")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP5:, L=10,A=5")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP6:, L=10,A=6")
+
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP7:, L=10,A=7")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP8:, L=10,A=8")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP9:, L=10,A=9")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP10:, L=10,A=10")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP11:, L=10,A=11")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP12:, L=10,A=12")
+
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP13:, L=10,A=13")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP14:, L=10,A=14")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP15:, L=10,A=15")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP16:, L=10,A=16")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP17:, L=10,A=17")
+dbLoadRecords("db/devtemp_gpib.db","P=HFXAFS:, R=TEMP18:, L=10,A=18")
+#
+#==================================================================================
+# Serial Port Settings for BL10A HF-XAFS E5GN TEMPERATURE MEASSUREMENT.
+#	Buad Rate 		: 19200 bps.
+#	Parity	  		: NONE.
+#	Data Bit  		: 8 Bit.
+#	Stop Bit  		: 1 Bit.
+#	Flow Control 	: NONE.
+#==================================================================================
+#
+#Using TCP/IP(Serial to Ethernet converter ex:MOXA5650) Port:4010= E5GN Temperature controller test
+drvAsynIPPortConfigure("L10","10.10.10.104:4010",0,0,0)
+asynOctetConnect("L10", "L10")
+asynOctetSetInputEos("L10",0,"\r")
+asynOctetSetOutputEos("L10",0,"\r")
+#
+#
+## if you want debug mode enable folow two Line
+#asynSetTraceMask("L10",-1,0x9)
+#asynSetTraceIOMask("L10",-1,0x2)
+#
+#
+cd ${TOP}/iocBoot/${IOC}
+iocInit()
+
+## Start any sequence programs
+#seq sncxxx,"user=rootHost"
+#

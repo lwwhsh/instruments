@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/iocBoot/sioc-hu19-vac
+END
+st.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/iocBoot/sioc-hu19-vac/st.cmd
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/iocBoot/sioc-hu19-vac/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/iocBoot/sioc-hu19-vac/README
+END

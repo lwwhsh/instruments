@@ -1,0 +1,14 @@
+# Agilent4UHV substitutions file
+
+file db/agilent4uhv.db
+{
+     pattern {LOCA,			DEV,			PORT,		ADDR,	TIMEOUT}
+     		{HBTL,			HBTL3,		    4uhv_1,		0,		0.2}
+
+}
+
+file db/agilent4uhv_alias.db
+{
+     pattern {LOCA,			DEV,			SUB1,					SUB2,					SUB3,					SUB4,					PORT,		ADDR,	TIMEOUT}
+     		 {HBTL,			HBTL3,		    VDL:IP01:DLEG_SIP30,	VDL:IP02:DLEG_SIP30,	VDL:IP03:DLEG_SIP30,	VDL:IP04:DLEG_SIP30,	4uhv_1,		0,		0.2}
+}

@@ -1,0 +1,19 @@
+# Agilent4UHV substitutions file
+
+file db/agilent4uhv.db
+{
+     pattern {LOCA,			DEV,			PORT,		ADDR,	TIMEOUT}
+     		{HL3B,			VL401_1,		4uhv_1,		0,		0.2}
+     		{HL3B,			VL401_2,		4uhv_2,		0,		0.2}
+     		{HL3B,			VDF2H_1,		4uhv_3,		0,		0.2}
+     		{HL3B,			VDF2H_2,		4uhv_4,		0,		0.2}
+}
+
+file db/agilent4uhv_alias_df2h.db
+{
+     pattern {LOCA,			DEV,		SUB1,						SUB2,						SUB3,						SUB4,						PORT,		ADDR,	TIMEOUT}
+     		 {HL3B,			VL401_1,	VL401_1:IP01:L401_Acc601,	VL401_1:IP02:L401_Acc602,	VL401_1:IP03:L401_Acc603,	VL401_1:IP04:L401_Acc604,	4uhv_1,		0,		0.2}
+			 {HL3B,			VL401_2,	VL401_2:IP05:L401_Acc605,	VL401_2:IP06:L401_Wave601,	VL401_2:IP07:L401_Kly601,	VL401_2:NOTUSED0,			4uhv_2,		0,		0.2}
+			 {HL3B,			VDF2H_1,	VDF2H:IP01:DF2H_Acc601,		VDF2H:IP02:DF2H_Acc602,		VDF2H:IP03:DF2H_Acc603,		VDF2H:IP04:DF2H_Wave601,	4uhv_3,		0,		0.2}
+			 {HL3B,			VDF2H_2,	VDF2H:IP05:DF2H_Kly601,		VDF2H:NOTUSED1,				VDF2H:NOTUSED2,				VDF2H:NOTUSED3,				4uhv_4,		0,		0.2}
+}

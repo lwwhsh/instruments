@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure
+END
+IocStCmd.pl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/IocStCmd.pl
+END
+RELEASE
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/RELEASE
+END
+RULES.ioc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/RULES.ioc
+END
+CONFIG
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/CONFIG
+END
+IocName.pl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/IocName.pl
+END
+CONFIG_SITE
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/CONFIG_SITE
+END
+RULES
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/RULES
+END
+RULES_DIRS
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/RULES_DIRS
+END
+RULES.Restore
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/RULES.Restore
+END
+RULES_TOP
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/RULES_TOP
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/configure/Makefile
+END

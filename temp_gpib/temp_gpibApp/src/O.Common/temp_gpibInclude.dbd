@@ -1,0 +1,8 @@
+include "base.dbd"
+include "xxxSupport.dbd"
+include "dbSubExample.dbd"
+include "temp_gpibHello.dbd"
+include "asyn.dbd"
+include "devtemp_gpib.dbd"
+include "drvAsynSerialPort.dbd"
+include "drvAsynIPPort.dbd"

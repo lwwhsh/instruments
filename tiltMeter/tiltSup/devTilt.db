@@ -1,0 +1,22 @@
+#
+# OMRON Tilt temperature reading with identification string
+#
+
+record(ai, "$(P)$(R)TILT_X")
+{
+   field(DTYP,"stream")
+   field(DESC,"PGM Angle sensor-X")
+   field(EGU, "Deg.")
+   field(INP, "@devTilt.proto readTiltX $(PORT)")
+   field(SCAN,"5 second")
+}
+
+record(ai, "$(P)$(R)TILT_Y")
+{
+   field(DTYP,"stream")
+   field(DESC,"PGM Angle sensor-Y")
+   field(EGU, "Deg.")
+   field(INP, "@devTilt.proto readTiltY $(PORT)")
+   field (SCAN, "I/O Intr")
+}
+

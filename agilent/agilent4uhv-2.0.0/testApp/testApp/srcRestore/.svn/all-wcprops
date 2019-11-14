@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/testApp/srcRestore
+END
+example.cwConfig
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/testApp/srcRestore/example.cwConfig
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/testApp/srcRestore/Makefile
+END

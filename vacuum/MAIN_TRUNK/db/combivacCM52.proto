@@ -1,0 +1,13 @@
+# 2016.01.04 Geonyeong Mun
+
+InTerminator = CR;
+OutTerminator = CR;
+
+ReplyTimeout = 500;
+ReadTimeout = 500;
+
+getPressureCh3 {
+	out "rpv3";
+	in "%(\$1:\$2:\$3_PressureStatus)1d,\t%f";
+	ExtraInput = Ignore;
+}

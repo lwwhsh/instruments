@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/vacApp/srcDisplay
+END
+CONFIG_EDL
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/vacApp/srcDisplay/CONFIG_EDL
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/vacApp/srcDisplay/Makefile
+END
+example.edl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/vacApp/srcDisplay/example.edl
+END

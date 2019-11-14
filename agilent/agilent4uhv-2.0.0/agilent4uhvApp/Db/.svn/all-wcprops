@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/Db
+END
+IOCNAME-evr.substitutions
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/Db/IOCNAME-evr.substitutions
+END
+IOCNAME-pattern.substitutions
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/Db/IOCNAME-pattern.substitutions
+END
+dbExample.db
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/Db/dbExample.db
+END
+bsaSimulator.db
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/Db/bsaSimulator.db
+END
+IOCNAME-bsa.substitutions
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/Db/IOCNAME-bsa.substitutions
+END
+IOCNAME-trig.substitutions
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/Db/IOCNAME-trig.substitutions
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/Db/Makefile
+END
+agilent4uhv.db
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/agilent4uhvApp/Db/agilent4uhv.db
+END

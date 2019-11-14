@@ -1,0 +1,129 @@
+#==============================================================================
+#
+# Abs:  LCLS read-only stringin records for Modules specified in configure/RELEASE
+#
+# Name: iocRelease.db
+#
+# Note: generated automatically by $IOCADMIN/bin/$EPICS_HOST_ARCH/iocReleaseCreateDb.py
+#
+#==============================================================================
+record(stringin, "$(IOC):RELEASE00") {
+  field(DESC, "AGILENT4UHV")
+  field(PINI, "YES")
+  field(VAL, "agilent4uhv-2.0.0")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE01") {
+  field(DESC, "ASYN")
+  field(PINI, "YES")
+  field(VAL, "asyn-R4-25_1-0")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE02") {
+  field(DESC, "AUTOSAVE")
+  field(PINI, "YES")
+  field(VAL, "autosave-R5-5_0-0")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE03") {
+  field(DESC, "BASE")
+  field(PINI, "YES")
+  field(VAL, "base-R3-14-12-4_1-0")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE04") {
+  field(DESC, "CAPUTLOG")
+  field(PINI, "YES")
+  field(VAL, "caPutLog-3.4")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE05") {
+  field(DESC, "CEXP")
+  field(PINI, "YES")
+  field(VAL, "cexpsh-R1-0-0")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE06") {
+  field(DESC, "EVENT")
+  field(PINI, "YES")
+  field(VAL, "event-R4-1-5")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE07") {
+  field(DESC, "IOCADMIN")
+  field(PINI, "YES")
+  field(VAL, "iocAdmin-R3-1-12_1-1")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE08") {
+  field(DESC, "MISCUTILS")
+  field(PINI, "YES")
+  field(VAL, "miscUtils-R2-2-2")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE09") {
+  field(DESC, "RTEMSUTILS")
+  field(PINI, "YES")
+  field(VAL, "rtemsutils-R1-0-0-lcls5")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE10") {
+  field(DESC, "SEQ")
+  field(PINI, "YES")
+  field(VAL, "seq-R2-1-6_1-3")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE11") {
+  field(DESC, "Not Applicable")
+  field(PINI, "YES")
+  field(VAL, "Not Applicable")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE12") {
+  field(DESC, "Not Applicable")
+  field(PINI, "YES")
+  field(VAL, "Not Applicable")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE13") {
+  field(DESC, "Not Applicable")
+  field(PINI, "YES")
+  field(VAL, "Not Applicable")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE14") {
+  field(DESC, "Not Applicable")
+  field(PINI, "YES")
+  field(VAL, "Not Applicable")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE15") {
+  field(DESC, "Not Applicable")
+  field(PINI, "YES")
+  field(VAL, "Not Applicable")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE16") {
+  field(DESC, "Not Applicable")
+  field(PINI, "YES")
+  field(VAL, "Not Applicable")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE17") {
+  field(DESC, "Not Applicable")
+  field(PINI, "YES")
+  field(VAL, "Not Applicable")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE18") {
+  field(DESC, "Not Applicable")
+  field(PINI, "YES")
+  field(VAL, "Not Applicable")
+  #field(ASG, "some read only grp")
+}
+record(stringin, "$(IOC):RELEASE19") {
+  field(DESC, "Not Applicable")
+  field(PINI, "YES")
+  field(VAL, "Not Applicable")
+  #field(ASG, "some read only grp")
+}

@@ -1,0 +1,37 @@
+Terminator = CR; 
+InTerminator = CR; 
+ReplyTimeout = 2000;
+ReadTimeout = 2000;
+
+# extrainput = Ignore;
+# if extrainput set to Ignore may hide some errors with incomplete input strings.
+# adviced by Dirk.
+#
+# example E5GN read temperature.
+#
+# This case use "extrainput=Ignore" 
+# readTemp1 {
+#     out "@01RX014A*";
+#     in "@01RX000%3d";
+# }
+
+readTemp1 {
+    out "@01RX014A*";
+    in "%*8c%3d%*7c";
+}
+
+readTemp2 {
+    out "@02RX0149*";
+    in "%*8c%3d%*7c";
+}
+
+readTemp3 {
+    out "@03RX0148*";
+    in "%*8c%3d%*7c";
+}
+
+readTemp4 {
+    out "@04RX014F*";
+    in "%*8c%3d%*7c";
+}
+

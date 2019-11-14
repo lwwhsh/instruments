@@ -1,0 +1,15 @@
+# Agilent4UHV substitutions file
+
+file db/agilent4uhv.db
+{
+     pattern {LOCA,			DEV,			PORT,		ADDR,	TIMEOUT}
+     		{HL3B,			VBC3H,		4uhv_1,		0,		0.2}
+     		{HL3B,			VSXB,		4uhv_2,		0,		0.2}
+}
+
+file db/agilent4uhv_alias.db
+{
+     pattern {LOCA,			DEV,			SUB1,					SUB2,			SUB3,					SUB4,					PORT,		ADDR,	TIMEOUT}
+     		 {HL3B,			VBC3H,	IP01:Empty,		IP02:Empty,					IP03:Empty,				IP04:Empty,				4uhv_1,		0,		0.2}
+		 {HL3B,			VSXB,	IP01:Empty,		IP02:SXBrDr_SIP304,			IP03:SXBrDr_SIP305,		IP04:SXBrDr_SIP306,		4uhv_2,		0,		0.2}
+}

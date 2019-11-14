@@ -1,0 +1,21 @@
+Terminator = LF; 
+InTerminator = LF; 
+ReplyTimeout = 2000;
+ReadTimeout = 2000;
+
+# extrainput = Ignore;
+# if extrainput set to Ignore may hide some errors with incomplete input strings.
+# adviced by Dirk.
+#
+# BL6A PGM-TILT read. It provide X,Y data with somthing...
+#
+# This case use "extrainput=Ignore" 
+readTiltX {
+    out "#deg?";
+    in "%*9c%6f%*9c";
+}
+
+readTiltY {
+    in "%*19c%6f";
+}
+

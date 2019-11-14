@@ -1,0 +1,249 @@
+
+#define P_4uhvIsAliveString			"AGILENT4UHV_ISALIVE"				/* asynInt32, r, 1:connected 0:disconnected */
+
+record(bi, "$(LOCA):$(DEV):IsAlive")
+{
+    field(DTYP, "asynInt32")
+    field(ONAM, "normal")
+    field(ZNAM, "fault")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_ISALIVE")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "ZSV OSV ZNAM ONAM")
+}
+
+record(bo, "$(LOCA):$(DEV):HvCh1")
+{
+    field(DTYP, "asynInt32")
+    field(ONAM, "off")
+    field(ZNAM, "on")
+    field(OUT, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_HV_CH1")
+
+    info(autosaveFields, "ZSV OSV ZNAM ONAM")
+}
+
+record(bo, "$(LOCA):$(DEV):HvCh2")
+{
+    field(DTYP, "asynInt32")
+    field(ONAM, "off")
+    field(ZNAM, "on")
+    field(OUT, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_HV_CH2")
+
+    info(autosaveFields, "ZSV OSV ZNAM ONAM")
+}
+
+record(bo, "$(LOCA):$(DEV):HvCh3")
+{
+    field(DTYP, "asynInt32")
+    field(ONAM, "off")
+    field(ZNAM, "on")
+    field(OUT, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_HV_CH3")
+
+    info(autosaveFields, "ZSV OSV ZNAM ONAM")
+}
+
+record(bo, "$(LOCA):$(DEV):HvCh4")
+{
+    field(DTYP, "asynInt32")
+    field(ONAM, "off")
+    field(ZNAM, "on")
+    field(OUT, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_HV_CH4")
+
+    info(autosaveFields, "ZSV OSV ZNAM ONAM")
+}
+
+record(bi, "$(LOCA):$(DEV):HvCh1Rbv")
+{
+    field(DTYP, "asynInt32")
+    field(ONAM, "on")
+    field(ZNAM, "off")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_HV_CH1_RBV")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "ZSV OSV ZNAM ONAM")
+}
+
+record(bi, "$(LOCA):$(DEV):HvCh2Rbv")
+{
+    field(DTYP, "asynInt32")
+    field(ONAM, "on")
+    field(ZNAM, "off")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_HV_CH2_RBV")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "ZSV OSV ZNAM ONAM")
+}
+
+record(bi, "$(LOCA):$(DEV):HvCh3Rbv")
+{
+    field(DTYP, "asynInt32")
+    field(ONAM, "on")
+    field(ZNAM, "off")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_HV_CH3_RBV")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "ZSV OSV ZNAM ONAM")
+}
+
+record(bi, "$(LOCA):$(DEV):HvCh4Rbv")
+{
+    field(DTYP, "asynInt32")
+    field(ONAM, "on")
+    field(ZNAM, "off")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_HV_CH4_RBV")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "ZSV OSV ZNAM ONAM")
+}
+
+record(ai, "$(LOCA):$(DEV):VoltageCh1")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "2")
+    field(EGU, "kV")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_V_CH1")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):CurrentCh1")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "15")
+    field(EGU, "A")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_I_CH1")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):PressureCh1")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "15")
+    field(EGU, "mbar")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_P_CH1")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):VoltageCh2")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "2")
+    field(EGU, "kV")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_V_CH2")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):CurrentCh2")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "15")
+    field(EGU, "A")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_I_CH2")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):PressureCh2")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "15")
+    field(EGU, "mbar")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_P_CH2")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):VoltageCh3")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "2")
+    field(EGU, "kV")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_V_CH3")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):CurrentCh3")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "15")
+    field(EGU, "A")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_I_CH3")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):PressureCh3")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "15")
+    field(EGU, "mbar")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_P_CH3")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):VoltageCh4")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "2")
+    field(EGU, "kV")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_V_CH4")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):CurrentCh4")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "15")
+    field(EGU, "A")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_I_CH4")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):PressureCh4")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "15")
+    field(EGU, "mbar")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_P_CH4")
+    field(SCAN,"I/O Intr")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ao, "$(LOCA):$(DEV):CommDelay")
+{
+    field(DTYP, "asynFloat64")
+    field(PREC, "3")
+    field(EGU, "second")
+    field(OUT, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_COMM_DELAY")
+
+    info(autosaveFields, "HIHI HIGH LOW LOLO HHSV HSV LSV LLSV")
+}
+
+record(ai, "$(LOCA):$(DEV):CommDelayDiag")
+{
+	field(DTYP,"asynFloat64")
+	field(PREC,"3")
+	field(EGU,"second")
+    field(SCAN,"I/O Intr")
+    field(INP, "@asyn($(PORT),$(ADDR),$(TIMEOUT))AGILENT4UHV_COMM_DELAY_DIAG")
+}
+

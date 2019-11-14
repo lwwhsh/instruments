@@ -1,0 +1,12 @@
+# Agilent4UHV substitutions file
+
+file db/agilent4uhv.db
+{
+     pattern {LOCA,			DEV,		PORT,		ADDR,	TIMEOUT}
+     		 {SU1,			SU6,		4uhv_1,		0,		0.2}
+}
+file db/agilent4uhv_alias.db
+{
+     pattern {LOCA,			DEV,		SUB1,					SUB2,					SUB3,						SUB4,				PORT,	ADDR,	TIMEOUT}
+     		 {SU1,			SU6,	VU404:IP01:SIP20,		VU405:IP01:SIP20,		VU406:IP01:SIP20,			VU407:IP01:SIP20,	4uhv_1,	0,		0.2}
+}

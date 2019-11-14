@@ -1,0 +1,107 @@
+record(ai,"$(P)$(R)TEMP") {
+    field(DESC, "$(P)$(R)Temp.")
+    field(SCAN, "5 second")
+    field(DTYP, "temp_gpib")
+    field(PREC, "1")
+    field(INP,  "#L$(L) A$(A) @0")
+    field(LINR, "NO CONVERSION")
+    field(EGUF, "100")
+    field(EGUL, "-10")
+    field(EGU,  "C")
+    field(HOPR, "500")
+    field(LOPR, "-20")
+    field(AOFF, "0")
+    field(ASLO, "1")
+    field(SIMS, "NO_ALARM")
+    field(FLNK, "$(P)$(R)sub.PROC NPP MS")
+}
+
+record(ai,"$(P)$(R)READ_SETPOINT") {
+    field(DESC, "$(P)$(R)SetPoint Rx")
+    field(SCAN, "Passive")
+    field(DTYP, "temp_gpib")
+    field(PREC, "1")
+    field(INP,  "#L$(L) A$(A) @1")
+    field(LINR, "NO CONVERSION")
+    field(EGUF, "500")
+    field(EGUL, "-10")
+    field(EGU,  "C")
+    field(HOPR, "500")
+    field(LOPR, "-20")
+    field(AOFF, "0")
+    field(ASLO, "1")
+    field(SIMS, "NO_ALARM")
+    field(PINI, "YES")
+}
+
+record(ao,"$(P)$(R)WRITE_SETPOINT") {
+    field(DESC, "$(P)$(R)SetPoint Tx")
+    field(DTYP, "temp_gpib")
+    field(OMSL, "closed_loop")
+    field(PREC, "1")
+    field(OUT,  "#L$(L) A$(A) @2")
+    field(LINR, "NO CONVERSION")
+    field(EGU,  "C")
+    field(HOPR, "150")
+    field(LOPR, "20")
+    field(FLNK, "$(P)$(R)READ_SETPOINT.PROC PP MS")
+}
+
+
+##### Run Sub Record for Get stat #########
+record(sub,"$(P)$(R)sub")
+{
+    field(SCAN, "Passive")
+    field(INAM, "temp_gpibSubInit")
+    field(SNAM, "temp_gpibSubProcess")
+    field(FLNK, "$(P)$(R)CHECK.PROC PP MS")
+}
+
+grecord(fanout,"$(P)$(R)CHECK")
+{
+    field(SCAN,"Passive")
+    field(LNK1,"$(P)$(R)SENsts.PROC PP MS")
+    field(LNK2,"$(P)$(R)ALARMsts.PROC PP MS")
+    field(LNK3,"$(P)$(R)REMOTEsts.PROC PP MS")
+}
+
+##### Check Temp. Sensor Status ####
+record(bi,"$(P)$(R)SENsts") {
+    field(DESC, "$(P)$(R)Sensor sts")
+    field(SCAN, "Passive")
+    field(DTYP, "Soft Channel")
+    field(INP,  "$(P)$(R)sub.C")
+    field(ZNAM, "Okay")
+    field(ONAM, "Fail")
+}
+
+##### Check Temp. ALARM Status ####
+record(bi,"$(P)$(R)ALARMsts") {
+    field(DESC, "$(P)$(R)ALARM sts")
+    field(SCAN, "Passive")
+    field(DTYP, "Soft Channel")
+    field(INP,  "$(P)$(R)sub.B")
+    field(ZNAM, "Okay")
+    field(ONAM, "Fail")
+}
+
+##### Check Temp. REM/LOC Status ####
+record(bi,"$(P)$(R)REMOTEsts") {
+    field(DESC, "$(P)$(R)REMOTE/LOCAL sts")
+    field(SCAN, "Passive")
+    field(DTYP, "Soft Channel")
+    field(INP,  "$(P)$(R)sub.A")
+    field(ZNAM, "LOCAL")
+    field(ONAM, "REMOTE")
+}
+grecord(bo,"$(P)$(R)RemLocSet")
+{
+    field(DESC, "$(P)$(R)REM/LOC Set")
+    field(DTYP, "temp_gpib")
+    field(OMSL, "closed_loop")
+    field(OUT,  "#L$(L) A$(A) @3")
+    field(FLNK, "$(P)$(R)TEMP.PROC PP MS")
+    field(ZNAM, "REMOTE")
+    field(ONAM, "LOCAL")
+}
+

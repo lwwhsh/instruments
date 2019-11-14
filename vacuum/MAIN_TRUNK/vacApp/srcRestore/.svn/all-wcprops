@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/vacApp/srcRestore
+END
+example.cwConfig
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/vacApp/srcRestore/example.cwConfig
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xfel/!svn/ver/1269/epics/iocTop/vacuum/MAIN_TRUNK/vacApp/srcRestore/Makefile
+END

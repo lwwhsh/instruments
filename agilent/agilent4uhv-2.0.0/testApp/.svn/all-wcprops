@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp
+END
+RELEASE_SITE
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/RELEASE_SITE
+END
+RELEASE_NOTES
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/RELEASE_NOTES
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xfel/!svn/ver/596/epics/modules/agilent4uhv/agilent4uhv-2.0.0/testApp/README
+END

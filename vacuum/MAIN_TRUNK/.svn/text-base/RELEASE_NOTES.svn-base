@@ -1,0 +1,19 @@
+
+#==============================================================
+#
+#  Name: RELEASE_NOTES
+#
+#  Rem:  This files describes release notes for
+#        the XXX IOC Application.
+#
+#  Auth: xx-Dec-2012, XXX         (xxx)
+#  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
+#--------------------------------------------------------------
+vacuum-R1-0-5: 2016.06.02 Geonyeong Mun
+vacuum-R1-0-4: 2016.04.14 Geonyeong Mun
+vacuum-R1-0-3: 2016.04.07 Geonyeong Mun
+			   mks937b module version update: mks937b-R2-0-2
+vacuum-R1-0-2: 2016.04.04 Geonyeong Mun
+			   mks937b module update
+vacuum-R1-0-1: First official release to be consumed.
+                     EPICS BASE: R3-14-12-3_1-0
